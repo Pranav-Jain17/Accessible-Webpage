@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Accessibilty</title>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <h1 tabindex="2">WEB ACCESSIBILITY</h1>
+        <div class="links" aria-label="links">
+            <ul class="links_ul">
+                <li><a href="#Home_Section" aria-label="home-link">HOME</a></li>
+                <li><a href="#About_Section" aria-label="about-link">ABOUT</a></li>
+                <li><a href="#Products_Section" aria-label="products-link">PRODUCTS</a></li>
+                <li><a href="#Contact_Section" aria-label="contact-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="header" aria-label="header">
+        <p>This is a webpage describing how a webpage can be made accessible to disabled people too.</p>
+    </header>
+
+    <main aria-label="main-content">
+
+        <hr />
+
+        <section aria-label="Home_Section" class="section" id="Home_Section" tabindex="0">
+            <div>
+                <h2>HOME</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <img src="./accessibility.png" alt="accessibility-image" width="200px" height="200px">
+        </section>
+        <hr />
+
+        <section aria-label="About_Section" class="section" id="About_Section" tabindex="0">
+            <h2>ABOUT US</h2>
+            <div class="about-container" role="button">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </section>
+        <hr />
+
+        <section aria-label="Products_Section" class="section" id="Products_Section" tabindex="0">
+            <h2>PRODUCTS</h2>
+            <ul>
+                <li>Product 1</li>
+                <li>Product 2</li>
+                <li>Product 3</li>
+                <li>Product 4</li>
+                <li>Product 5</li>
+            </ul>
+        </section>
+        <hr />
+
+        <section aria-label="Contact_Section" class="section" id="Contact_Section" tabindex="0">
+            <h2>CONTACT US</h2>
+            <ul>
+                <li>EMAIL : <a href="mailto:pranavjain4325@gmail.com"
+                        aria-label="contact via gmail">pranavjain4325@gmail.com</a></li>
+                <li>CONTACT : <a href="tel:7078369454" aria-label="contact via phone number">7078369454</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <hr />
+
+    <footer aria-label="footer">
+        <p>&copy;Web Accessibilty</p>
+        <a href="#header">Back to top</a>
+    </footer>
