@@ -35,7 +35,7 @@ main {
 
 header,
 footer {
-    margin: 0 5rem;
+    margin: 1rem 5rem;
 }
 
 
@@ -47,8 +47,24 @@ footer {
         flex-direction: column;
     }
 
+    .links_ul {
+        padding: 0 1rem;
+    }
+
+    li {
+        font-size: 0.75rem;
+    }
+
     #Home_Section {
         flex-wrap: wrap;
     }
 
+    main,
+    header {
+        margin: 2rem 0.75rem;
+    }
+
+    h1 {
+        font-size: larger;
+    }
 }
