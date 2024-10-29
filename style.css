@@ -37,3 +37,18 @@ header,
 footer {
     margin: 0 5rem;
 }
+
+
+/* CSS for responsiveness */
+
+@media screen and (max-width:768px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    #Home_Section {
+        flex-wrap: wrap;
+    }
+
+}
